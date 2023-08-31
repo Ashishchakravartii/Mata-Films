@@ -234,3 +234,76 @@ body{
     border: none;
     font-family: "Roboto";
 }
+
+/* --------------------------------------Footer--------------------------------------  */
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto";
+
+}
+
+.footerDiv1 {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerDiv1 h4{
+    font-family: "Roboto";
+    font-size: 3vmax;
+}
+
+footer div {
+    /* width: 33.33%; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.footerDiv2 ul>li,
+.footerDiv2 ul>h3 {
+    list-style: none;
+    font-size: 1vmax;
+
+}
+
+
+.footerDiv2 {
+    width: 20vw;    
+
+}
+.footerDiv2 ul>li{
+    margin-top: 0.2vmax;
+    
+}
+.footerDiv3 {
+    text-align: left;
+    font-size: 1vmax;
+    width: 40vw;
+
+}
+.footerDiv3>p{
+    margin-top: 2vmax;
+    
+}
+
+/* ======================================== white bar ================================= */
+
+.whiteBar{
+    width: 100vw;
+    height: 4vh;
+    background-color: rgb(107, 104, 104,0.2);
+    /* opacity: 0.6; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vmax;
+    font-family: "Roboto light";
+    align-items: center;
+}
+
